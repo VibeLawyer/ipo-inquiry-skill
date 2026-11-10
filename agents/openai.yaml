@@ -1,0 +1,13 @@
+interface:
+  display_name: IPO问询问题自动生成（A股＋港股）
+  short_description: 支持A股及港股，基于申报材料生成分级模拟问询、核查事项与依据清单
+  default_prompt: 请使用 $generate-ipo-inquiries，根据我提供的企业材料及目标A股或港股市场生成模拟IPO问询，列明事实出处、适用依据和补充材料；双市场分别分析。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
